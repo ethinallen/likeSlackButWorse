@@ -59,7 +59,7 @@ PORT = input('Enter port: ')
 if not HOST:
     HOST = '198.21.229.137'
 if not PORT:
-    PORT = 45000
+    PORT = 44000
 else:
     PORT = int(PORT)
 
