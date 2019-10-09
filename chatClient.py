@@ -57,7 +57,7 @@ def on_closing(event=None):
 HOST = input('Enter host: ')
 PORT = input('Enter port: ')
 if not HOST:
-    HOST = 198.21.229.137
+    HOST = '198.21.229.137'
 if not PORT:
     PORT = 45000
 else:
