@@ -56,8 +56,10 @@ def on_closing(event=None):
 #----Now comes the sockets part----
 HOST = input('Enter host: ')
 PORT = input('Enter port: ')
+if not HOST:
+    HOST = 198.21.229.137
 if not PORT:
-    PORT = 33000
+    PORT = 45000
 else:
     PORT = int(PORT)
 
